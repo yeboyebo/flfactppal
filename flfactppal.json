@@ -2,7 +2,392 @@
     "name": "flfactppal",
     "modifications": {
         "deleteFile": [],
-        "addFile": [],
+        "addFile": [
+            {
+                "name": "model_flcontppal__co_cuentas.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flcontppal__co_cuentas_def.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flcontppal__co_subcuentas.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flcontppal__co_subcuentas_def.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flcontppal__co_subcuentascli.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flcontppal__co_subcuentascli_def.py",
+                "path": "models/flcontppal/"
+            },
+            {
+                "name": "model_flfactppal__agentes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__agentes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__bancos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__bancos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__clientes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__clientes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__contactosclientes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__contactosclientes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__contactosproveedores.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__contactosproveedores_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__crm_contactos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__crm_contactos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbanco.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbanco_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbcocli.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbcocli_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbco_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbco_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbcopro.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__cuentasbcopro_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__departamentos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__departamentos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentosclientes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentosclientes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentos_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentos_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentosproveedores.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__descuentosproveedores_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__dirclientes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__dirclientes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__dirproveedores.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__dirproveedores_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__divisas_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__divisas_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__divisas.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__divisas_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__ejercicios_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__ejercicios_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__ejercicios.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__ejercicios_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__empresa.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__empresa_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__factppal_general.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__factppal_general_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__formaspago_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__formaspago_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__formaspago.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__formaspago_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__gruposclientes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__gruposclientes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__impuestos_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__impuestos_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__impuestos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__impuestos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__intervalos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__intervalos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__intervalosrappel.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__intervalosrappel_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__paises_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__paises_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__paises.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__paises_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__plazos.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__plazos_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__proveedores.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__proveedores_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__provincias.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__provincias_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__rh_empleados.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__rh_empleados_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__secuenciasejercicios.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__secuenciasejercicios_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__secuencias.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__secuencias_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__series_imp.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__series_imp_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__series.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__series_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__sucursales.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__sucursales_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__textosinformes.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__textosinformes_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__tiposrappel.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__tiposrappel_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__usuarios.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__usuarios_def.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__zonasgeo.py",
+                "path": "models/flfactppal/"
+            },
+            {
+                "name": "model_flfactppal__zonasgeo_def.py",
+                "path": "models/flfactppal/"
+            }
+        ],
         "replaceFile": [
             {
                 "name": "dependencias.json",

@@ -1,3 +1,85 @@
 {
-    "modifications": []
+    "modifications": [
+        {
+            "type": "insertAfterNode",
+            "path": "/portal",
+            "value": {
+                "principal": {}
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/models/root",
+            "value": {
+                "flcontppal": {
+                    "co_cuentas": null,
+                    "co_subcuentas": null,
+                    "co_subcuentascli": null
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/models/flcontppal",
+            "value": {
+                "flfactppal": {
+                    "agentes": null,
+                    "bancos": null,
+                    "clientes": null,
+                    "contactosclientes": null,
+                    "contactosproveedores": null,
+                    "crm_contactos": null,
+                    "cuentasbanco": null,
+                    "cuentasbcocli": null,
+                    "cuentasbco_imp": null,
+                    "cuentasbcopro": null,
+                    "departamentos": null,
+                    "descuentosclientes": null,
+                    "descuentos_imp": null,
+                    "descuentos": null,
+                    "descuentosproveedores": null,
+                    "dirclientes": null,
+                    "dirproveedores": null,
+                    "divisas_imp": null,
+                    "divisas": null,
+                    "ejercicios_imp": null,
+                    "ejercicios": null,
+                    "empresa": null,
+                    "factppal_general": null,
+                    "formaspago_imp": null,
+                    "formaspago": null,
+                    "gruposclientes": null,
+                    "impuestos_imp": null,
+                    "impuestos": null,
+                    "intervalos": null,
+                    "intervalosrappel": null,
+                    "paises_imp": null,
+                    "paises": null,
+                    "plazos": null,
+                    "proveedores": null,
+                    "provincias": null,
+                    "rh_empleados": null,
+                    "secuenciasejercicios": null,
+                    "secuencias": null,
+                    "series_imp": null,
+                    "series": null,
+                    "sucursales": null,
+                    "textosinformes": null,
+                    "tiposrappel": null,
+                    "usuarios": null,
+                    "zonasgeo": null
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/models/flfactppal",
+            "value": {
+                "flsisppal": {
+                    "auth_group": null,
+                    "auth_user": null
+                }
+            }
+        }
+    ]
 }

@@ -1,3 +1,48 @@
 {
-    "modifications": []
+    "modifications": [
+        {
+            "type": "insertAfterNode",
+            "path": "/root",
+            "value": {
+                "flfactppal": {
+                    "agentes": null,
+                    "clientes": null,
+                    "contactos": null,
+                    "cuentasbanco": null,
+                    "departamentos": null,
+                    "descuentosclientes": null,
+                    "dirclientes": null,
+                    "dirproveedores": null,
+                    "ejercicios": null,
+                    "empresa": null,
+                    "factppal_general": null,
+                    "formaspago": null,
+                    "gruposclientes": null,
+                    "gruposcontablescli": null,
+                    "impuestos": null,
+                    "intervalos": null,
+                    "intervalosrappel": null,
+                    "paises": null,
+                    "plazos": null,
+                    "proveedores": null,
+                    "secuenciasejercicios": null,
+                    "secuencias": null,
+                    "series": null,
+                    "sucursales": null,
+                    "textosinformes": null,
+                    "usuarios": null
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/flfactppal",
+            "value": {
+                "flsisppal": {
+                    "auth_group": null,
+                    "auth_user": null
+                }
+            }
+        }
+    ]
 }
