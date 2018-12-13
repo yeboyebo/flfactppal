@@ -386,6 +386,162 @@
             {
                 "name": "model_flfactppal__zonasgeo_def.py",
                 "path": "models/flfactppal/"
+            },
+            {
+                "name": "app_portal__menu_portal.json",
+                "path": "apps/portal/templates/portal/"
+            },
+            {
+                "name": "app_portal__views_portal.py",
+                "path": "apps/portal/viewset/"
+            },
+            {
+                "name": "app_principal__menu_principal.json",
+                "path": "apps/principal/templates/principal/"
+            },
+            {
+                "name": "app_principal__agentes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__tiposrappel.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__clientes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordagentes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__cuentasbcocli.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecorddescuentosproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__dirproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__impuestos.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__dirclientes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__proveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordsecuenciasejercicios.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordcuentasbcopro.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__cuentasbanco.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterimpuestos.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordimpuestos.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__secuenciasejercicios.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterejercicios.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__cuentasbcopro.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masteragentes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__descuentosproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordseries.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecorddirproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterseries.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordejercicios.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__empresa.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordclientes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordcuentasbcocli.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterdescuentos.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecorddirclientes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__mastercuentasbanco.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordproveedores.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__ejercicios.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__masterclientes.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__newrecordcuentasbanco.json",
+                "path": "apps/principal/templates/principal/plantillas/"
+            },
+            {
+                "name": "app_principal__views_principal.py",
+                "path": "apps/principal/viewset/"
             }
         ],
         "replaceFile": [
