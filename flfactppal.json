@@ -542,6 +542,10 @@
             {
                 "name": "app_principal__views_principal.py",
                 "path": "apps/principal/viewset/"
+            },
+            {
+                "path": "models/flfactppal/",
+                "name": "model_flfactppal__flfactppal_def.py"
             }
         ],
         "replaceFile": [
