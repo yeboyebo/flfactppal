@@ -16,47 +16,11 @@ from YBLEGACY.constantes import *
 
 class flfactppal(interna):
 
-    def flfactppal_initValidation(self, name, data=None):
-        response = True
-        return response
-
-    def flfactppal_iniciaValoresLabel(self, model=None, template=None, cursor=None):
-        labels = {}
-        return labels
-
-    def flfactppal_bChLabel(self, fN=None, cursor=None):
-        labels = {}
-        return labels
-
-    def flfactppal_getFilters(self, model, name, template=None):
-        filters = []
-        return filters
-
-    def flfactppal_getForeignFields(self, model, template=None):
-        fields = []
-        return fields
-
     def flfactppal_getDesc(self):
-        desc = None
-        return desc
+        return None
 
     def __init__(self, context=None):
         super(flfactppal, self).__init__(context)
-
-    def initValidation(self, name, data=None):
-        return self.ctx.flfactppal_initValidation(name, data)
-
-    def iniciaValoresLabel(self, model=None, template=None, cursor=None):
-        return self.ctx.flfactppal_iniciaValoresLabel(model, template, cursor)
-
-    def bChLabel(self, fN=None, cursor=None):
-        return self.ctx.flfactppal_bChLabel(fN, cursor)
-
-    def getFilters(self, model, name, template=None):
-        return self.ctx.flfactppal_getFilters(model, name, template)
-
-    def getForeignFields(self, model, template=None):
-        return self.ctx.flfactppal_getForeignFields(model, template)
 
     def getDesc(self):
         return self.ctx.flfactppal_getDesc()
