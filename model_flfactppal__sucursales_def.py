@@ -20,7 +20,7 @@ class flfactppal(interna):
         return None
 
     def __init__(self, context=None):
-        super(flfactppal, self).__init__(context)
+        super().__init__(context)
 
     def getDesc(self):
         return self.ctx.flfactppal_getDesc()
@@ -30,14 +30,14 @@ class flfactppal(interna):
 class head(flfactppal):
 
     def __init__(self, context=None):
-        super(head, self).__init__(context)
+        super().__init__(context)
 
 
 # @class_declaration ifaceCtx #
 class ifaceCtx(head):
 
     def __init__(self, context=None):
-        super(ifaceCtx, self).__init__(context)
+        super().__init__(context)
 
 
 # @class_declaration FormInternalObj #
