@@ -17,7 +17,7 @@ from YBLEGACY.constantes import *
 class flfactppal(interna):
 
     def flfactppal_getDesc(self):
-        return None
+        return "nombreap"
 
     def __init__(self, context=None):
         super().__init__(context)
