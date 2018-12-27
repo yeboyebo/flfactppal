@@ -38,6 +38,17 @@
             "type": "insertAfterNode",
             "path": "/flfactppal",
             "value": {
+                "flcontppal": {
+                    "co_cuentas": null,
+                    "co_subcuentas": null,
+                    "co_subcuentascli": null
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/flcontppal",
+            "value": {
                 "flsisppal": {
                     "auth_group": null,
                     "auth_user": null
