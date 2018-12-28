@@ -38,3 +38,10 @@ class ifaceCtx(head):
 class FormInternalObj(qsatype.FormDBWidget):
     def _class_init(self):
         self.iface = ifaceCtx(self)
+
+
+form = FormInternalObj()
+form._class_init()
+form.iface.ctx = form.iface
+form.iface.iface = form.iface
+iface = form.iface
