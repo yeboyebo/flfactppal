@@ -4,6 +4,10 @@
         "deleteFile": [],
         "addFile": [
             {
+                "name": "app_principal____init__.py",
+                "path": "apps/principal/"
+            },
+            {
                 "name": "model_flcontppal__co_cuentas.py",
                 "path": "models/flcontppal/"
             },
