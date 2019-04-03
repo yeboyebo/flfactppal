@@ -44,16 +44,6 @@
                     "co_subcuentascli": null
                 }
             }
-        },
-        {
-            "type": "insertAfterNode",
-            "path": "/flcontppal",
-            "value": {
-                "flsisppal": {
-                    "auth_group": null,
-                    "auth_user": null
-                }
-            }
         }
     ]
 }

@@ -70,16 +70,6 @@
                     "zonasgeo": null
                 }
             }
-        },
-        {
-            "type": "insertAfterNode",
-            "path": "/models/flfactppal",
-            "value": {
-                "flsisppal": {
-                    "auth_group": null,
-                    "auth_user": null
-                }
-            }
         }
     ]
 }
