@@ -550,12 +550,7 @@
                 "path": "config/"
             }
         ],
-        "patchScript": [
-            {
-                "name": "app_portal__views_portal.py",
-                "path": "apps/portal/viewset/"
-            }
-        ],
+        "patchScript": [],
         "patchJson": [
             {
                 "name": "urls.json",
@@ -564,10 +559,6 @@
             {
                 "name": "registros.json",
                 "path": "config/"
-            },
-            {
-                "name": "app_portal__menu_portal.json",
-                "path": "apps/portal/templates/portal/"
             }
         ]
     }
