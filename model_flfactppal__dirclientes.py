@@ -20,6 +20,10 @@ class flfactppal_dirclientes(interna_dirclientes, helpers.MixinConAcciones):
     class Meta:
         proxy = True
 
+    @helpers.decoradores.accion(aqparam=["oParam"])
+    def getDireccionCliente(self, oParam):
+        return form.iface.getDireccionCliente(self, oParam)
+
 
 # @class_declaration dirclientes #
 class dirclientes(flfactppal_dirclientes, helpers.MixinConAcciones):
