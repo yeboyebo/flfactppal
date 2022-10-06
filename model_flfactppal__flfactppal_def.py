@@ -12,6 +12,7 @@ class interna(qsatype.objetoBase):
 
 # @class_declaration flfactppal #
 from YBLEGACY.constantes import *
+import requests
 
 
 class flfactppal(interna):
