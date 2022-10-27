@@ -9,6 +9,8 @@
                     "clientes": null,
                     "contactos": null,
                     "cuentasbanco": null,
+                    "cuentasbcocli": null,
+                    "cuentasbcoprov": null,
                     "departamentos": null,
                     "descuentosclientes": null,
                     "dirclientes": null,
