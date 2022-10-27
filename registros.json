@@ -30,7 +30,8 @@
                     "series": null,
                     "sucursales": null,
                     "textosinformes": null,
-                    "usuarios": null
+                    "usuarios": null,
+                    "factppal_modelos": null
                 }
             }
         },
