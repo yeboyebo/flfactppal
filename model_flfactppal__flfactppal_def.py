@@ -22,9 +22,15 @@ class flfactppal(interna):
 
     def llamaAPI(self, url, verbo, params=None):
         res = {}
-        api_url = "http://127.0.0.1:8005/api/"
-        # api_url = "http://172.65.0.1:8005/api/"
-        token = 'd12e36e5b04b5c060451722c460c47a1178fd61e'
+        # API local para desarrollo
+        # api_url = "http://127.0.0.1:8005/api/"
+        api_url = qsatype.FLUtil.readDBSettingEntry(u"URL_API_PINEBOO")
+        if not api_url or api_url == '':
+            raise Exception("No hay definida una URL para la API de Pineboo en el formulario de configuración del módulo principal de facturación")
+        id_usuario = qsatype.FLUtil.nameUser()
+        token = qsatype.FLUtil.sqlSelect("usuarios", "token", "idusuario = '{}'".format(id_usuario))
+        if not token or token is None:
+            raise Exception("El usuario {} no tiene token creado. Operación cancelada".format(id_usuario))
         header = {"Content-Type": "application/json", "Authorization": "Token {}".format(token)}
         if verbo == "post":
             res = requests.post(api_url + url, headers=header, data=params)
